@@ -1,0 +1,232 @@
+/*Documento CSS*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    /* border:red 3px solid */
+  }
+  
+  body {
+    height: 100vh;
+    min-height: 340vh;
+    background-image: url("fundosite3.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  #linetop {
+    position: sticky;
+    width: 100%;
+    top: 0;
+  }
+  #ptc {
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+  }
+  header {
+    background-color: lightblue;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-image: url("cab.avif");
+    background-size: cover;
+  }
+  header figure {
+    width: 180px;
+    height: 150px;
+  
+  }
+  header figure img {
+    width: 66%;
+  height: 80%;
+  border-radius: 360%;
+  margin-top: 16px;
+  margin-left: 40px;
+  }
+  img {
+    width: 300px;
+  }
+  header h1 {
+    font-size: 90px;
+    font-family: "Abril Fatface";
+    justify-content: center;
+    color: white;
+  }
+  
+  nav {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    background-size: contain;
+  }
+  nav ul {
+    list-style: none;
+  }
+  nav ul li {
+    display: inline;
+  }
+  nav ul li a {
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+  }
+  #nav1 {
+    border-bottom: 5px solid darkgray;
+  }
+  #nav2 {
+    margin-left: 150px;
+    border-bottom: 5px solid darkgray;
+  }
+  #nav3 {
+    margin-left: 150px;
+    border-bottom: 5px solid darkgray;
+  }
+  #nav4 {
+    margin-left: 150px;
+    border-bottom: 5px solid darkgray;
+  }
+  nav ul li a:hover {
+    background-color: darkgrey;
+    border-bottom: 5px solid white;
+  }
+  #parte1 {
+    height: 100vh;
+    padding-top: 200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  #parte2 {
+    height: 100vh;
+    padding-top: 200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+   }
+  #parte3 {
+    height: 100vh;
+    padding-top: 200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    }
+  #parte4 {
+    height: 100vh;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    }
+  .card {
+    margin-top: 70px;
+    width: 300px;
+    height: 470px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: -1px -1px 10px black, 1px -1px 10px black, -1px 1px 10px black,
+      1px 1px 10px black;
+    background-image: url("cab.avif");
+    transition-duration: 0.5s;
+  }
+  .card:hover {
+    scale: 1.01;
+  }
+  
+  .card figure {
+    width: 290px;
+    height: 260px;
+    background-color: black;
+    border-radius: 10px;
+    background-size: 100%;
+    overflow: hidden;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+  }
+  .card figure img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+  
+  }
+  .card h2 {
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    
+  }
+  .card ul {
+    text-align: left;
+    color: black;
+    font-weight: 300;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+  }
+  .card ul li {
+    text-align: left;
+    color: black;
+    font-weight: 300;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 30px;
+    color:white;
+  }
+  
+  footer{
+    background-color: white;
+    height: 250px;
+    padding-left: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    background-image: url('cab.avif'); /* Substitua 'caminho/para/sua/imagem.jpg' pelo caminho real da sua imagem */
+    background-size: cover; /* Ajusta a imagem para cobrir todo o cabeçalho */
+    background-position: center; /* Centraliza a imagem no cabeçalho */
+}
+footer figure{
+    height: 350px;
+    width: 35 0px;
+    margin-right: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  
+}
+footer img{
+  width: 100%;
+}
+footer h1{
+    font-size: 45px;
+    font-family:'Holtwood One SC';
+    color:white;
+    padding-right: 100px;
+}
+footer h2{
+    font-family:'Holtwood One SC';
+    margin-left: 5%;
+    color: white;
+}
+footer p{
+    font-family:'Rokkitt';
+    font-size: 25px;
+    padding-right: 15p;
+    color: white;
+    
+    
+}
+  
